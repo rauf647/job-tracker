@@ -43,7 +43,7 @@ const PublicRoute = ({ children }) => {
 function App() {
   return (
     <AuthProvider>
-      <Router>
+      <Router basename="/job-tracker">
         <Toaster
           position="top-right"
           toastOptions={{
